@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notes_background">#F2F2F2</color>
+    <color name="notes_surface">#DAD9D4</color>
+    <color name="notes_nav_indicator">#C3C2BD</color>
+    <color name="notes_muted">#9D9C98</color>
+    <color name="notes_text_primary">#131313</color>
+    <color name="notes_text_secondary">#5E5D5A</color>
+    <color name="notes_accent">#E63D3A</color>
+    <color name="notes_on_accent">#FFFFFF</color>
+</resources>

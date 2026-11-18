@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Log in to open your notes</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="action_login">Log in</string>
+    <string name="link_to_signup">New here? Create an account</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Create your account</string>
+    <string name="signup_subtitle">Your notes stay encrypted on this device</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="action_signup">Create account</string>
+    <string name="link_to_login">Already have an account? Log in</string>
+
+    <!-- Validation and messages -->
+    <string name="error_empty_name">Enter your name</string>
+    <string name="error_name_short">Name must be at least 2 characters</string>
+    <string name="error_empty_email">Enter your email</string>
+    <string name="error_invalid_email">Enter a valid email address</string>
+    <string name="error_empty_password">Enter your password</string>
+    <string name="error_weak_password">Use at least 8 characters with a letter and a number</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_email_taken">An account with this email already exists</string>
+    <string name="msg_invalid_credentials">Invalid email or password</string>
+    <string name="msg_account_created">Account created. Please log in.</string>
+    <string name="msg_signup_failed">Could not create the account. Try again.</string>
+    <string name="msg_welcome">Welcome, %1$s!</string>
+
+    <!-- Main -->
+    <string name="nav_notes">Notes</string>
+    <string name="nav_account">Account</string>
+    <string name="cd_add_note">Add a new note</string>
+    <string name="notes_title">Notes</string>
+    <string name="account_title">Account</string>
+    <string name="action_logout">Log out</string>
+
+    <!-- Notes list -->
+    <string name="notes_empty">No notes yet. Tap the red button to write your first one.</string>
+    <string name="msg_note_deleted">Note deleted</string>
+    <string name="action_undo">Undo</string>
+
+    <!-- Note editor -->
+    <string name="editor_new_title">New note</string>
+    <string name="editor_edit_title">Edit note</string>
+    <string name="hint_note_title">Title</string>
+    <string name="hint_note_content">Write something…</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_share_note">Share note</string>
+    <string name="cd_delete_note">Delete note</string>
+    <string name="error_empty_title">Add a title</string>
+    <string name="msg_note_saved">Note saved</string>
+    <string name="msg_save_note_failed">Could not save the note</string>
+    <string name="msg_load_note_failed">Could not open the note</string>
+    <string name="msg_nothing_to_share">Write something before sharing</string>
+    <string name="share_chooser_title">Share note via</string>
+    <string name="dialog_delete_title">Delete this note?</string>
+    <string name="dialog_delete_message">This cannot be undone.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Theme, backup and privacy</string>
+    <string name="section_appearance">Appearance</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System default</string>
+    <string name="section_backup">Backup</string>
+    <string name="backup_description">Save an encrypted copy of your notes in the private storage of this app.</string>
+    <string name="action_backup">Back up notes now</string>
+    <string name="backup_last">Last backup: %1$s</string>
+    <string name="backup_never">never</string>
+    <string name="backup_started">Backing up your notes…</string>
+    <string name="backup_failed">Backup failed. Please try again.</string>
+    <plurals name="backup_notes_saved">
+        <item quantity="one">%d note saved securely</item>
+        <item quantity="other">%d notes saved securely</item>
+    </plurals>
+    <string name="section_privacy">Privacy statement</string>
+    <string name="privacy_text">Your notes belong to you and stay on this device. Titles and note text are encrypted with a key held in the Android Keystore, and your password is stored only as a salted hash, never as plain text. Notes are never uploaded. The app uses the internet only to load a daily quote, which sends no personal data. Backups are saved encrypted in the private storage of this app, which other apps cannot read. Uninstalling the app removes all of this data.</string>
+
+    <!-- Notifications and permission -->
+    <string name="notif_channel_backup">Backups</string>
+    <string name="notif_backup_title">Backup complete</string>
+    <string name="notif_backup_failed_title">Backup failed</string>
+    <string name="notif_backup_failed_text">Your notes could not be saved. Open the app and try again.</string>
+    <string name="notif_reminder_title">Back up your notes</string>
+    <string name="notif_reminder_text">You have not backed up your notes in over a week.</string>
+    <string name="permission_rationale_title">Allow notifications?</string>
+    <string name="permission_rationale_message">Notes can tell you when a backup has finished. You can still back up without this.</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_not_now">Not now</string>
+</resources>

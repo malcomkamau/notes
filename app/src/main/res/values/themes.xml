@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- One theme. Light/dark values come from values/colors.xml and values-night/colors.xml. -->
+    <style name="Theme.Notes" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/notes_accent</item>
+        <item name="colorOnPrimary">@color/notes_on_accent</item>
+        <item name="colorSecondary">@color/notes_accent</item>
+        <item name="colorOnSecondary">@color/notes_on_accent</item>
+        <item name="colorSecondaryContainer">@color/notes_nav_indicator</item>
+        <item name="colorOnSecondaryContainer">@color/notes_text_primary</item>
+        <item name="android:colorBackground">@color/notes_background</item>
+        <item name="colorSurface">@color/notes_surface</item>
+        <item name="colorOnSurface">@color/notes_text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/notes_text_secondary</item>
+        <item name="colorOutline">@color/notes_muted</item>
+        <item name="colorError">@color/notes_accent</item>
+    </style>
+</resources>
