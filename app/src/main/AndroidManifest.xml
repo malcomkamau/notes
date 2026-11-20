@@ -8,7 +8,8 @@
 
     <!-- Normal permission: granted automatically at install; lets BootReceiver run after a restart. -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-
+<!--adding internet permission-->
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -65,6 +66,7 @@
         </receiver>
 
         <!-- Still to come (step 5): NotesProvider with exported="false" -->
+
     </application>
 
 </manifest>

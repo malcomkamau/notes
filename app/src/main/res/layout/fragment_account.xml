@@ -35,6 +35,25 @@
             android:layout_marginTop="@dimen/space_xs"
             android:textAppearance="@style/TextAppearance.Notes.Caption" />
 
+        <TextView
+            android:text="Network Information"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtOperator"
+            android:text="Network Operator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtCountry"
+            android:text="Network Country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cardSettings"
             android:layout_width="match_parent"

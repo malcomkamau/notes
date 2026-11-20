@@ -9,10 +9,27 @@ import androidx.fragment.app.Fragment
 import com.group14.notes.auth.SessionManager
 import com.group14.notes.util.openLogin
 
+
 class AccountFragment : Fragment(R.layout.fragment_account) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        val operatorText: TextView = view.findViewById(R.id.txtOperator)
+
+        val countryText: TextView = view.findViewById(R.id.txtCountry)
+
+        val helper =
+            TelephonyHelper(requireContext())
+
+        operatorText.setText(
+            "Network Operator: " +
+                    helper.getNetworkOperator()
+        )
+
+        countryText.setText(
+            "Network Country: " +
+                    helper.getNetworkCountry()
+        )
 
         // Application context is used inside SessionManager; the Activity context is only used to navigate.
         val session = SessionManager(requireContext())

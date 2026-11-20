@@ -98,4 +98,6 @@
     <string name="permission_rationale_message">Notes can tell you when a backup has finished. You can still back up without this.</string>
     <string name="action_allow">Allow</string>
     <string name="action_not_now">Not now</string>
+    <string name="daily_quote">Loading daily quote...</string>
+    <string name="daily_inspiration">Daily inspiration</string>
 </resources>

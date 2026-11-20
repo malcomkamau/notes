@@ -33,7 +33,26 @@ class NotesFragment : Fragment(R.layout.fragment_notes) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+// Daily inspirational quote
+        val quoteText = view.findViewById<TextView>(R.id.txtQuote)
+        val authorText = view.findViewById<TextView>(R.id.txtAuthor)
 
+        QuoteManager.fetchQuote(object : QuoteManager.QuoteCallback {
+
+            override fun onSuccess(quote: String, author: String) {
+                if (!isAdded) return
+
+                quoteText.text = quote
+                authorText.text = "- $author"
+            }
+
+            override fun onError(error: String) {
+                if (!isAdded) return
+
+                quoteText.text = "Your notes are always important!"
+                authorText.text = "Daily inspiration"
+            }
+        })
         db = DatabaseHelper.getInstance(requireContext())
         session = SessionManager(requireContext())
         emptyView = view.findViewById(R.id.tvEmpty)

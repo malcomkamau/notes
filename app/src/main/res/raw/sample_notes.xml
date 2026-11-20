@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <notes>
+        <note>
+            <title>School Project</title>
+            <description>Complete Android CAT 3.</description>
+        </note>
+
+        <note>
+            <title>Personal Reminder</title>
+            <description>Prepare for presentation.</description>
+        </note>
+    </notes>
+
+</PreferenceScreen>
